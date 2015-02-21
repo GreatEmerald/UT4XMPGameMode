@@ -1,0 +1,23 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "XMP Game Mode",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "GreatEmerald",
+	"CreatedByURL" : "http://greatemerald.eu",
+	"EngineVersion" : "4.7.0",
+	"Description" : "Unreal II eXpanded MultiPlayer",
+	"Category" : "UnrealTournament.GameMode",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "XMPGameMode",
+			"Type" : "Runtime",
+			"WhitelistPlatforms" : [ "Win32", "Win64", "Linux" ]
+		}
+	]
+}

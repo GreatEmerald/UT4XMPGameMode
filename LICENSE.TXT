@@ -1,0 +1,16 @@
+UT4XMP Game Mode is licensed under the GNU General Publice License v3 or (at 
+your option) any later version of the license; see the file GPLv3.TXT for full 
+license terms.
+
+Additional permission is granted under GNU GPL version 3 section 7:
+If you modify this Program, or any covered work, by linking or combining it
+with Unreal Engine 4 (or a modified version of that program), containing
+parts covered by the terms of the Unreal Engine End User License Agreement,
+the licensors of this Program grant you additional permission to convey the
+resulting work.
+
+In addition, Epic Games, Inc., for the purposes of integrating the software or 
+any part of it into the Unreal Engine or its derivatives, is granted a license 
+to use this software under, as well as make it available under, the terms of 
+the Unreal Engine End User License Agreement, as seen in: 
+https://www.unrealengine.com/eula 
