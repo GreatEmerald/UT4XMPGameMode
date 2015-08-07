@@ -1,22 +1,23 @@
 namespace UnrealBuildTool.Rules
 {
-	public class XMPGameMode : ModuleRules
+    public class XMPGameMode : ModuleRules
+    {
+	public XMPGameMode(TargetInfo Target)
 	{
-		public XMPGameMode(TargetInfo Target)
+	    PrivateIncludePaths.Add("XMPGameMode/Private");
+	    PublicDependencyModuleNames.AddRange(
+		new string[]
 		{
-			PrivateIncludePaths.Add("Classes");
-			PrivateIncludePaths.Add("Restricted");
-			PublicDependencyModuleNames.AddRange(
-				new string[]
-				{
-					"Core",
-					"CoreUObject",
-					"Engine",
-					"UnrealTournament",
-					"InputCore",
-					"SlateCore",
-				}
-			);
+		    "Core",
+		    "CoreUObject",
+		    "Engine",
+		    "UnrealTournament",
+		    "InputCore",
+		    "Slate",
+		    "SlateCore",
+		    "UMG"
 		}
+	    );
 	}
+    }
 }
